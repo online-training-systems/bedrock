@@ -58,7 +58,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", , "roots/wp-stage-switcher", "jon3laze/wp-sync-db", "jon3laze/wp-sync-db-media-files"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "roots/wp-stage-switcher", "jon3laze/wp-sync-db", "jon3laze/wp-sync-db-media-files"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
