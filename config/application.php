@@ -34,6 +34,16 @@ if (file_exists($root_dir . '/.env')) {
 }
 
 /**
+ * Set environments for serialization
+ */
+ $envs = [
+  'development' => 'http://example.test',
+  'staging'     => 'https://staging.example.com',
+  'production'  => 'https://example.com'
+];
+define('ENVIRONMENTS', serialize($envs));
+
+/**
  * Set up our global environment constant and load its config first
  * Default: production
  */
